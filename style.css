@@ -8,7 +8,7 @@ button,
 input {
   width: 174px;
   font-family: verdana;
-  color: white;
+  color: rgb(23, 23, 23);
 }
 
 h2 {
@@ -47,7 +47,7 @@ span {
   justify-content: space-evenly;
 }
 
-#weatherStats {
+.weatherStats {
   display: flex;
   outline: rgb(74, 74, 82) solid 3px;
   font-family: verdana;
