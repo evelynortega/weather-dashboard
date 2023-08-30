@@ -3,16 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
-    <container class="container"> 
-        <input id="city" type="text"></input>
-    </container>
    
-    <container class="container">
-          <input id="state" type="text"></input>
-    </container>
+    <header class="header">
+        <h1>Weather Dashoard</h1>
+    </header>
+   <div class="mainDiv">
+        <h2>City</h2>
+        <input id="citySearch" type="text"></input>
+   
+        <h2>State</h2>
+        <input id="stateSearch" type="text"></input>
+        <br/>
+        <button id="searchButton">Search Weather</button>
+    </div>
+ 
   
     <script src="./index.js"></script>
   </body>
